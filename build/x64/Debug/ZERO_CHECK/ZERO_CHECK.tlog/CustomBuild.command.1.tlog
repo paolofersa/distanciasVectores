@@ -1,0 +1,10 @@
+^E:\UCSP\CCOMP\2021-01\ESTRUCTURA DE DATOS AVANZADAS\LABORATORIO\DISTANCIASVECTORES\BUILD\CMAKEFILES\2AF6D255DD1826D80F26115CC320CF36\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/UCSP/CCOMP/2021-01/ESTRUCTURA de Datos Avanzadas/Laboratorio/distanciasVectores" "-BE:/UCSP/CCOMP/2021-01/ESTRUCTURA de Datos Avanzadas/Laboratorio/distanciasVectores/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/UCSP/CCOMP/2021-01/ESTRUCTURA de Datos Avanzadas/Laboratorio/distanciasVectores/build/Distancias_vectores.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
